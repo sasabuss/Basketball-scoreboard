@@ -78,6 +78,7 @@ newGame.addEventListener("click", () => {
 	guestPoint.textContent = 0;
 	homePoint.textContent = 0;
 	periodScore.textContent = 0;
+	updateLeader();
 });
 
 upArrow.addEventListener("click", () => {
