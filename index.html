@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<!-- Font Awesome 6 (strele, ikone) -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+			integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<!-- Seven Segmet FONT -->
+		<link href="https://fonts.cdnfonts.com/css/seven-segment" rel="stylesheet" />
+
+		<!-- Google Fonts Poppins -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div>
+				<h3>HOME</h3>
+
+				<div id="score" class="score-wrapper">
+					<p class="score-counter" id="home-point">0</p>
+				</div>
+				<div class="btn-wrapper">
+					<button id="first-oneP-btn" class="btn">+1</button>
+					<button id="first-twoP-btn" class="btn">+2</button>
+					<button id="first-threeP-btn" class="btn">+3</button>
+				</div>
+			</div>
+
+			<div id="new-game" class="new-game-wrapper">
+				<p class="new-game">New Game</p>
+			</div>
+
+			<div class="period">
+				<h3 class="period-title">PERIOD</h3>
+				<p id="period-score" class="period-score">0</p>
+				<div class="icons-wrapper">
+					<i id="up" class="fa-solid fa-arrow-left"></i>
+					<i id="down" class="fa-solid fa-arrow-right"></i>
+				</div>
+			</div>
+
+			<div>
+				<h3>GUEST</h3>
+				<div class="score-wrapper">
+					<p class="score-counter" id="guest-point">0</p>
+				</div>
+				<div class="btn-wrapper">
+					<button id="second-oneP-btn" class="btn">+1</button>
+					<button id="second-twoP-btn" class="btn">+2</button>
+					<button id="second-threeP-btn" class="btn">+3</button>
+				</div>
+			</div>
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>
